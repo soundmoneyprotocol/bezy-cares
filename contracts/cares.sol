@@ -5,7 +5,7 @@ pragma solidity 0.8.25;
 /// @notice This contract allows users to create campaigns on-chain
 /// @custom:contact info@soundmoney.com
 
-import { ReentrancyGuard } from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import { ReentrancyGuard } from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 error Hopes__NoGoalSet();
